@@ -507,3 +507,36 @@ git commit -m "Initial commit with ex2, ex3, and ex4 directories"
 git branch
 git push -u origin master
 git push -u origin main
+ls
+git rm --cached Vagrantfile
+rm file.txt
+rmdir test
+rm -rf !(ex2|ex3|ex4)
+ls
+git status
+git add .
+git commit -m "Ex2, Ex3, and Ex4"
+git push origin master
+ls
+sudo apt-get install git
+git config --global user.name "kawthar khaled"
+git config --global user.email "kokakhaled121@gmail.com"
+git clone https://github.com/kawthar-khaled/Lab.git
+cd Lab
+ls
+exit
+ls
+git clone https://github.com/kawthar-khaled/Lab.git
+cd Lab
+ls
+cd
+cd Desktop
+cd /Desktop
+ls
+rmdir Lab
+Lab
+cd Lab
+ls
+cd
+ls
+exit
